@@ -1,0 +1,34 @@
+{
+	"multipart": [
+		{	"when": { "facing": "up" },
+			"apply": { "model": "normal_torch" }
+		},
+		{	"when": { "facing": "up" },
+			"apply": { "model": "bdc_torch_flame" }
+		},
+		{	"when": { "facing": "east" },
+		 	"apply": { "model": "normal_torch_wall" }
+		},
+		{	"when": { "facing": "east" },
+		 	"apply": { "model": "bdc_torch_flame_wall" }
+		},
+		{	"when": { "facing": "south" },
+		 	"apply": { "model": "normal_torch_wall", "y": 90 }
+		},
+		{	"when": { "facing": "south" },
+		 	"apply": { "model": "bdc_torch_flame_wall", "y": 90 }
+		},
+		{	"when": { "facing": "west" },
+		 	"apply": { "model": "normal_torch_wall", "y": 180 }
+		},
+		{	"when": { "facing": "west" },
+		 	"apply": { "model": "bdc_torch_flame_wall", "y": 180 }
+		},
+		{	"when": { "facing": "north" },
+		 	"apply": { "model": "normal_torch_wall", "y": 270 }
+		},
+		{	"when": { "facing": "north" },
+		 	"apply": { "model": "bdc_torch_flame_wall", "y": 270 }
+		}
+	]
+}

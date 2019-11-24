@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "tall_grass", "weight": 2000 },
+            { "model": "bdc_clover", "weight": 200 },
+            { "model": "bdc_clover2", "weight": 1 }
+        ]
+    }
+}

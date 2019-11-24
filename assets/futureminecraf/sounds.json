@@ -1,0 +1,15 @@
+{
+    "block.lever.click": {
+        "replace": true,
+        "sounds": [
+            "random/lever"
+        ]
+    },
+	"entity.vindication_illager.hurt": {
+        "replace": true,
+        "sounds": [
+            "mob/vindication_illager/hurt1",
+			"mob/vindication_illager/hurt2"
+        ]
+    }	
+}

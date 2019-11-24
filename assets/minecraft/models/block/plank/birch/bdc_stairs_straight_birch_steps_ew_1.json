@@ -1,0 +1,6 @@
+{
+    "parent": "block/bdc_stairs_straight_steps_ew_1",
+    "textures": {
+        "plank": "blocks/planks_birch"
+    }
+}

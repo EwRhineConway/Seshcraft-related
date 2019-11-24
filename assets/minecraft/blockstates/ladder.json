@@ -1,0 +1,40 @@
+{
+    "variants": {
+        "facing=north": [
+			{ "model": "ladder", "weight": 40 },
+			{ "model": "bdc_ladder01", "weight": 2 },
+			{ "model": "bdc_ladder02", "weight": 2 },
+			{ "model": "bdc_ladder03", "weight": 2 },
+			{ "model": "bdc_ladder04", "weight": 2 },
+			{ "model": "bdc_ladder05", "weight": 2 },
+			{ "model": "bdc_ladder06", "weight": 2 }
+			],
+        "facing=east":  [
+			{ "model": "ladder", "weight": 40, "y": 90 },
+			{ "model": "bdc_ladder01", "weight": 2, "y": 90 },
+			{ "model": "bdc_ladder02", "weight": 2, "y": 90 },
+			{ "model": "bdc_ladder03", "weight": 2, "y": 90 },
+			{ "model": "bdc_ladder04", "weight": 2, "y": 90 },
+			{ "model": "bdc_ladder05", "weight": 2, "y": 90 },
+			{ "model": "bdc_ladder06", "weight": 2, "y": 90 }
+			],
+        "facing=south": [
+			{ "model": "ladder", "weight": 40, "y": 180 },
+			{ "model": "bdc_ladder01", "weight": 2, "y": 180 },
+			{ "model": "bdc_ladder02", "weight": 2, "y": 180 },
+			{ "model": "bdc_ladder03", "weight": 2, "y": 180 },
+			{ "model": "bdc_ladder04", "weight": 2, "y": 180 },
+			{ "model": "bdc_ladder05", "weight": 2, "y": 180 },
+			{ "model": "bdc_ladder06", "weight": 2, "y": 180 }
+			],
+        "facing=west":  [
+			{ "model": "ladder", "weight": 40, "y": 270 },
+			{ "model": "bdc_ladder01", "weight": 2, "y": 270 },
+			{ "model": "bdc_ladder02", "weight": 2, "y": 270 },
+			{ "model": "bdc_ladder03", "weight": 2, "y": 270 },
+			{ "model": "bdc_ladder04", "weight": 2, "y": 270 },
+			{ "model": "bdc_ladder05", "weight": 2, "y": 270 },
+			{ "model": "bdc_ladder06", "weight": 2, "y": 270 }
+			]
+    }
+}

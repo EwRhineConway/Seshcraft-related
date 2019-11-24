@@ -1,0 +1,75 @@
+{
+	"__comment": "Designed by Sphax with BDcraft Cubik PRO 0.75 Beta - http://bdcraft.net",
+	"parent": "block/thin_block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#texture",
+		"texture": "#texture",
+		"side": "blocks/trapdoor_side_v",
+		"overlay": "blocks/trapdoor_overlay",
+		"border": "blocks/trapdoor_border"
+	},
+	"elements": [
+		{
+			"__comment": "RingT",
+			"from": [ 6.5, 11.5, 13 ],
+			"to": [ 9.5, 15.5, 16 ],
+			"faces": {
+				"down": { "uv": [ 9.5, 16, 6.5, 13 ], "texture": "#side" },
+				"up": { "uv": [ 6.5, 9, 9.5, 12 ], "texture": "#side", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 3, 4 ], "texture": "#overlay", "cullface": "north" },
+				"south": { "uv": [ 0, 0, 3, 4 ], "texture": "#overlay", "cullface": "south" },
+				"west": { "uv": [ 0.5, 5, 4, 8 ], "texture": "#side", "rotation": 90 },
+				"east": { "uv": [ 12, 1, 15.5, 4 ], "texture": "#side", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "HingeL",
+			"from": [ 11.5, -0.0009999999, 13 ],
+			"to": [ 13.5, 1.999, 16 ],
+			"faces": {
+				"down": { "uv": [ 4.5, 16, 2.5, 13 ], "texture": "#side", "cullface": "down" },
+				"up": { "uv": [ 11.5, 9, 13.5, 12 ], "texture": "#side" },
+				"north": { "uv": [ 2, 14, 4, 16 ], "texture": "#overlay", "cullface": "north" },
+				"south": { "uv": [ 12, 14, 14, 16 ], "texture": "#overlay", "cullface": "south" },
+				"west": { "uv": [ 14, 5, 16, 8 ], "texture": "#side", "rotation": 90 },
+				"east": { "uv": [ 0, 1, 2, 4 ], "texture": "#side", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "HingeR",
+			"from": [ 2.5, -0.0009999999, 13 ],
+			"to": [ 4.5, 1.999, 16 ],
+			"faces": {
+				"down": { "uv": [ 13.5, 16, 11.5, 13 ], "texture": "#side", "cullface": "down" },
+				"up": { "uv": [ 2.5, 9, 4.5, 12 ], "texture": "#side" },
+				"north": { "uv": [ 12, 14, 14, 15.999 ], "texture": "#overlay", "cullface": "north" },
+				"south": { "uv": [ 2, 14, 4, 15.999 ], "texture": "#overlay", "cullface": "south" },
+				"west": { "uv": [ 14, 5, 16, 8 ], "texture": "#side", "rotation": 90 },
+				"east": { "uv": [ 0, 1, 2, 4 ], "texture": "#side", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Border",
+			"from": [ 0, 0, 13.5 ],
+			"to": [ 16, 16, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 16, 11.5, 0, 9.5 ], "texture": "#side", "cullface": "down" },
+				"up": { "uv": [ 0, 9.5, 16, 11.5 ], "texture": "#side", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#border" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#border" },
+				"west": { "uv": [ 0, 5.5, 16, 7.5 ], "texture": "#side", "cullface": "west", "rotation": 90 },
+				"east": { "uv": [ 0, 1.5, 16, 3.5 ], "texture": "#side", "cullface": "east", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Inner",
+			"from": [ 0.25, 0.25, 14 ],
+			"to": [ 15.75, 15.75, 15 ],
+			"faces": {
+				"north": { "uv": [ 0.25, 0.25, 15.75, 15.75 ], "texture": "#texture" },
+				"south": { "uv": [ 0.25, 0.25, 15.75, 15.75 ], "texture": "#texture" }
+			}
+		}
+	]
+}

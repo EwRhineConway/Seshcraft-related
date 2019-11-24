@@ -1,0 +1,6 @@
+{
+    "parent": "block/pistons/heads/piston_head_s",
+    "textures": {
+        "platform": "blocks/piston_top_normal"
+    }
+}

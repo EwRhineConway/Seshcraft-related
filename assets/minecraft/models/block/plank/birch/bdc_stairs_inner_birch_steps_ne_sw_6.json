@@ -1,0 +1,6 @@
+{
+    "parent": "block/bdc_stairs_inner_steps_ne_sw_6",
+    "textures": {
+        "plank": "blocks/planks_birch"
+    }
+}

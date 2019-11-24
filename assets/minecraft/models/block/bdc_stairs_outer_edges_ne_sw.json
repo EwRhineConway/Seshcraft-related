@@ -1,0 +1,74 @@
+{
+"textures": {
+    "particle": "#plank",
+    "plank": "#plank"
+},
+"elements": [ 
+{
+    "__comment": "EdgeTopWest",
+    "from": [ 14, 8, 0 ],
+    "to": [ 16, 16, 8 ],
+    "faces": {
+        "up":    { "uv": [ 0, 0, 2, 8 ], "texture": "#plank", "cullface": "up" },
+        "north": { "uv": [ 14, 0, 16, 8 ], "texture": "#plank", "cullface": "north" },
+        "south": { "uv": [ 0, 0, 2, 8 ], "texture": "#plank" }
+    }
+},
+{
+    "__comment": "EdgeBottomWest",
+    "from": [ 14, 0, 0 ],
+    "to": [ 16, 8, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 14, 0 ], "texture": "#plank", "cullface": "down" },
+        "north": { "uv": [ 14, 8, 16, 16 ], "texture": "#plank", "cullface": "north" },
+        "south": { "uv": [ 0, 8, 2, 16 ], "texture": "#plank", "cullface": "south" }
+    }
+},
+{
+    "__comment": "EdgeBottomWest",
+    "from": [ 0, 0, 0 ],
+    "to": [ 2, 8, 16 ],
+    "faces": {
+        "down":  { "uv": [ 14, 0, 16, 16 ], "texture": "#plank", "cullface": "down" },
+        "up":    { "uv": [ 14, 0, 16, 16 ], "texture": "#plank" },
+        "north": { "uv": [ 14, 8, 16, 16 ], "texture": "#plank", "cullface": "north" },
+        "south": { "uv": [ 14, 8, 16, 16 ], "texture": "#plank", "cullface": "south" }
+    }
+},
+{
+    "__comment": "EdgeNorthSidesTop",
+    "from": [ 8, 8, 0 ],
+    "to": [ 16, 16, 2 ],
+    "faces": {
+        "west":  { "uv": [ 0, 0, 2, 16 ], "texture": "#plank" },
+        "east":  { "uv": [ 14, 0, 16, 16 ], "texture": "#plank", "cullface": "east" }
+    }
+},
+{
+    "__comment": "EdgeSouthSides",
+    "from": [ 0, 0, 14 ],
+    "to": [ 16, 8, 16 ],
+    "faces": {
+        "west":  { "uv": [ 14, 8, 16, 16 ], "texture": "#plank", "cullface": "west" },
+        "east":  { "uv": [ 0, 8, 2, 16 ], "texture": "#plank", "cullface": "east" }
+    }
+},
+{
+    "__comment": "EdgeBottomStepTopE",
+    "from": [ 14, 0, 8 ],
+    "to": [ 16, 8, 16 ],
+    "faces": {
+        "up":    { "uv": [ 0, 8, 2, 16 ], "texture": "#plank" }
+    }
+},
+{
+    "__comment": "EdgeNorthSidesBottom",
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 8, 2 ],
+    "faces": {
+        "west":  { "uv": [ 0, 8, 2, 16 ], "texture": "#plank", "cullface": "west" },
+        "east":  { "uv": [ 0, 8, 2, 16 ], "texture": "#plank", "cullface": "east" }
+    }
+}
+]
+}

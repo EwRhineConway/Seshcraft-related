@@ -1,0 +1,63 @@
+{
+"textures": {
+    "particle": "#plank",
+    "plank": "#plank"
+},
+"elements": [ 
+{
+    "__comment": "StepBottomNorthPlank",
+    "from": [ 2, 0, 0 ],
+    "to": [ 14, 8, 8 ],
+    "faces": {
+        "down":  { "uv": [ 14, 0, 2, 8 ], "texture": "#plank", "cullface": "down" },
+        "north": { "uv": [ 14, 0, 2, 8 ], "texture": "#plank", "cullface": "north" }
+    }
+},
+{
+    "__comment": "StepTopPlank",
+    "from": [ 2, 8, 0 ],
+    "to": [ 8, 16, 8 ],
+    "faces": {
+        "up":    { "uv": [ 2, 8, 8, 16 ], "texture": "#plank", "cullface": "up" },
+        "north": { "uv": [ 8, 8, 14, 16 ], "texture": "#plank", "cullface": "north" },
+        "south": { "uv": [ 2, 8, 8, 16 ], "texture": "#plank" }
+    }
+},
+{
+    "__comment": "StepTopPlankEdges",
+    "from": [ 0, 8, 2 ],
+    "to": [ 8, 16, 8 ],
+    "faces": {
+        "west":  { "uv": [ 2, 8, 8, 16 ], "texture": "#plank", "cullface": "west" },
+        "east":  { "uv": [ 8, 8, 14, 16 ], "texture": "#plank" }
+    }
+},
+{
+    "__comment": "StepBottomPlankEdges",
+    "from": [ 0, 0, 2 ],
+    "to": [ 16, 8, 14 ],
+    "faces": {
+        "west":  { "uv": [ 14, 0, 2, 8 ], "texture": "#plank", "cullface": "west" },
+        "east":  { "uv": [ 14, 0, 2, 8 ], "texture": "#plank", "cullface": "east" }
+    }
+},
+{
+    "__comment": "StepBottomSouthPlank",
+    "from": [ 2, 0, 8 ],
+    "to": [ 14, 8, 16 ],
+    "faces": {
+        "down":  { "uv": [ 2, 8, 14, 16 ], "texture": "#plank", "cullface": "down" },
+        "up":    { "uv": [ 14, 0, 2, 8 ], "texture": "#plank" },
+        "south": { "uv": [ 14, 0, 2, 8 ], "texture": "#plank", "cullface": "south" }
+    }
+},
+{
+    "__comment": "StepBottomNCorner",
+    "from": [ 8, 0, 0 ],
+    "to": [ 14, 8, 8 ],
+    "faces": {
+        "up":    { "uv": [ 8, 8, 14, 16 ], "texture": "#plank" }
+    }
+}
+]
+}

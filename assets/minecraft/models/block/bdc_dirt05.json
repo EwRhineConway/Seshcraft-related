@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by Sphax for PureBDcraft - http://bdcraft.net",
+    "parent": "block/cube_column",
+    "textures": {
+        "side": "blocks/bdc_dirt05",
+        "end": "blocks/bdc_dirt_top3"
+    }
+}

@@ -1,0 +1,83 @@
+{
+"textures": {
+    "particle": "#plank",
+    "plank": "#plank"
+},
+"elements": [ 
+{
+    "__comment": "EdgeWest",
+    "from": [ 14, 0, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 14, 0, 16, 16 ], "texture": "#plank", "cullface": "down" },
+        "up":    { "uv": [ 14, 0, 16, 16 ], "texture": "#plank", "cullface": "up" },
+        "north": { "uv": [ 14, 0, 16, 16 ], "texture": "#plank", "cullface": "north" },
+        "south": { "uv": [ 14, 0, 16, 16 ], "texture": "#plank", "cullface": "south" }
+    }
+},
+{
+    "__comment": "EdgeTopEast",
+    "from": [ 8, 8, 14 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "west":  { "uv": [ 14, 0, 16, 8 ], "texture": "#plank" },
+        "east":  { "uv": [ 0, 0, 2, 8 ], "texture": "#plank", "cullface": "east" }
+    }
+},
+{
+    "__comment": "EdgeNorthSides",
+    "from": [ 14, 0, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "north": { "uv": [ 0, 0, 2, 16 ], "texture": "#plank", "cullface": "north" },
+        "south": { "uv": [ 14, 0, 16, 16 ], "texture": "#plank", "cullface": "south" }
+    }
+},
+{
+    "__comment": "EdgeBottomSouthSides",
+    "from": [ 0, 0, 0 ],
+    "to": [ 2, 8, 16 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 2, 16 ], "texture": "#plank", "cullface": "down" },
+        "north": { "uv": [ 0, 8, 2, 16 ], "texture": "#plank", "cullface": "north" },
+        "south": { "uv": [ 0, 8, 2, 16 ], "texture": "#plank", "cullface": "south" }
+    }
+},
+{
+    "__comment": "EdgeBottomStepW",
+    "from": [ 0, 0, 8 ],
+    "to": [ 2, 8, 16 ],
+    "faces": {
+        "up":    { "uv": [ 0, 8, 2, 16 ], "texture": "#plank" }
+    }
+},
+{
+    "__comment": "EdgeTopStep",
+    "from": [ 0, 8, 0 ],
+    "to": [ 2, 16, 8 ],
+    "faces": {
+        "up":    { "uv": [ 0, 0, 2, 8 ], "texture": "#plank", "cullface": "up" },
+        "north": { "uv": [ 0, 0, 2, 8 ], "texture": "#plank", "cullface": "north" },
+        "south": { "uv": [ 0, 0, 2, 8 ], "texture": "#plank" }
+    }
+},
+{
+    "__comment": "EdgeNorth",
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 16, 2 ],
+    "faces": {
+        "west":  { "uv": [ 0, 0, 2, 16 ], "texture": "#plank", "cullface": "west" },
+        "east":  { "uv": [ 0, 0, 2, 16 ], "texture": "#plank", "cullface": "east" }
+    }
+},
+{
+    "__comment": "EdgeSouth",
+    "from": [ 0, 0, 14 ],
+    "to": [ 16, 8, 16 ],
+    "faces": {
+        "west":  { "uv": [ 14, 8, 16, 16 ], "texture": "#plank", "cullface": "west" },
+        "east":  { "uv": [ 14, 8, 16, 16 ], "texture": "#plank", "cullface": "east" }
+    }
+}
+]
+}

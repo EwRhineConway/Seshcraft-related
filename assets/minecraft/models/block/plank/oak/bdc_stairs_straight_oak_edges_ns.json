@@ -1,0 +1,6 @@
+{
+    "parent": "block/bdc_stairs_straight_edges_ns",
+    "textures": {
+        "plank": "blocks/planks_oak"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "variants": {
+        "normal": [
+			{ "model": "double_stone", "weight": 120 },
+			{ "model": "bdc_slab_double_stone01", "weight": 3 },
+			{ "model": "bdc_slab_double_stone02", "weight": 3 },
+			{ "model": "bdc_slab_double_stone03", "weight": 3 },
+			{ "model": "bdc_slab_double_stone04", "weight": 3 },
+			{ "model": "bdc_slab_double_stone05", "weight": 3 },
+			{ "model": "bdc_slab_double_stone06", "weight": 3 },
+			{ "model": "bdc_slab_double_stone07", "weight": 3 },
+			{ "model": "bdc_slab_double_stone08", "weight": 3 },
+			{ "model": "bdc_slab_double_stone09", "weight": 3 },
+			{ "model": "bdc_slab_double_stone10", "weight": 3 },
+			{ "model": "bdc_slab_double_stone11", "weight": 3 }
+		],
+        "all": [
+			{ "model": "double_stone_top", "weight": 120 },
+			{ "model": "bdc_slab_double_stone_top01", "weight": 3 },
+			{ "model": "bdc_slab_double_stone_top02", "weight": 3 },
+			{ "model": "bdc_slab_double_stone_top03", "weight": 3 },
+			{ "model": "bdc_slab_double_stone_top04", "weight": 3 },
+			{ "model": "bdc_slab_double_stone_top05", "weight": 3 },
+			{ "model": "bdc_slab_double_stone_top06", "weight": 3 },
+			{ "model": "bdc_slab_double_stone_top07", "weight": 3 },
+			{ "model": "bdc_slab_double_stone_top08", "weight": 3 },
+			{ "model": "bdc_slab_double_stone_top09", "weight": 3 },
+			{ "model": "bdc_slab_double_stone_top10", "weight": 3 },
+			{ "model": "bdc_slab_double_stone_top11", "weight": 3 }
+		]
+    }
+}

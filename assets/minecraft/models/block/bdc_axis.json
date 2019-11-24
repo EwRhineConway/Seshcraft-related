@@ -1,0 +1,37 @@
+{
+"__comment": "3D Mesh designed with BDcraft Cubik - Version PRO 0.72 Beta",
+"textures": {
+    "axis": "blocks/bdc_axis"
+},
+"elements": [ 
+{
+    "from": [ 8, 8, 8 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 8, 8, 16, 0 ], "texture": "#axis" },
+        "north": { "uv": [ 8, 0, 0, 8 ], "texture": "#axis" },
+        "west":  { "uv": [ 0, 8, 8, 16 ], "texture": "#axis" }
+    }
+},
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 8, 8, 16, 16 ], "texture": "#axis" },
+        "up":    { "uv": [ 8, 8, 16, 16 ], "texture": "#axis" },
+        "north": { "uv": [ 8, 8, 16, 16 ], "texture": "#axis" },
+        "south": { "uv": [ 8, 8, 16, 16 ], "texture": "#axis" },
+        "west":  { "uv": [ 8, 8, 16, 16 ], "texture": "#axis" },
+        "east":  { "uv": [ 8, 8, 16, 16 ], "texture": "#axis" }
+    }
+},
+{
+    "from": [ -8, -8, 7.95 ],
+    "to": [ 24, 24, 8.05 ],
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#layer0" },
+        "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#layer0" }
+    }
+}
+]
+}

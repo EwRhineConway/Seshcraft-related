@@ -1,0 +1,6 @@
+{
+    "parent": "block/pistons/piston_w",
+    "textures": {
+        "platform": "blocks/piston_top_sticky"
+    }
+}

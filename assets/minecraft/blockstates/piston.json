@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "extended=false,facing=down": { "model": "pistons/piston_normal_d" },
+        "extended=false,facing=up": { "model": "pistons/piston_normal_u" },
+        "extended=false,facing=north": { "model": "pistons/piston_normal_n" },
+        "extended=false,facing=south": { "model": "pistons/piston_normal_s" },
+        "extended=false,facing=west": { "model": "pistons/piston_normal_w" },
+        "extended=false,facing=east": { "model": "pistons/piston_normal_e" },
+        "extended=true,facing=down": { "model": "pistons/piston_extended_d" },
+        "extended=true,facing=up": { "model": "pistons/piston_extended_u" },
+        "extended=true,facing=north": { "model": "pistons/piston_extended_n" },
+        "extended=true,facing=south": { "model": "pistons/piston_extended_s" },
+        "extended=true,facing=west": { "model": "pistons/piston_extended_w" },
+        "extended=true,facing=east": { "model": "pistons/piston_extended_e" }
+    }
+}

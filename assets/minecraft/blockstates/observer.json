@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "facing=up,powered=false": { "model": "observer_u" },
+        "facing=down,powered=false": { "model": "observer_d" },
+        "facing=north,powered=false": { "model": "observer_n" },
+        "facing=south,powered=false": { "model": "observer_s" },
+        "facing=west,powered=false": { "model": "observer_w" },
+        "facing=east,powered=false": { "model": "observer_e"},
+        "facing=up,powered=true": { "model": "observer_powered_u" },
+        "facing=down,powered=true": { "model": "observer_powered_d" },
+        "facing=north,powered=true": { "model": "observer_powered_n" },
+        "facing=south,powered=true": { "model": "observer_powered_s" },
+        "facing=west,powered=true": { "model": "observer_powered_w" },
+        "facing=east,powered=true": { "model": "observer_powered_e" }
+    }
+}

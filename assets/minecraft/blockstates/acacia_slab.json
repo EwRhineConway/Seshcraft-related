@@ -1,0 +1,34 @@
+{
+    "multipart": [
+		{	"when": { "half": "bottom" },
+			"apply": { "model": "plank/acacia/bdc_slab_acacia_lower_edges" }	
+		},
+		{	"when": { "half": "bottom" },
+			"apply": [
+				{ "model": "plank/acacia/bdc_slab_acacia_lower_1" },
+				{ "model": "plank/acacia/bdc_slab_acacia_lower_2" },
+				{ "model": "plank/acacia/bdc_slab_acacia_lower_3" },
+				{ "model": "plank/acacia/bdc_slab_acacia_lower_4" },
+				{ "model": "plank/acacia/bdc_slab_acacia_lower_5" },
+				{ "model": "plank/acacia/bdc_slab_acacia_lower_6" },
+				{ "model": "plank/acacia/bdc_slab_acacia_lower_7" },
+				{ "model": "plank/acacia/bdc_slab_acacia_lower_8" }
+			]
+		},
+		{	"when": { "half": "top" },
+			"apply": { "model": "plank/acacia/bdc_slab_acacia_upper_edges" }	
+		},
+		{	"when": { "half": "top" },
+			"apply": [
+				{ "model": "plank/acacia/bdc_slab_acacia_upper_1" },
+				{ "model": "plank/acacia/bdc_slab_acacia_upper_2" },
+				{ "model": "plank/acacia/bdc_slab_acacia_upper_3" },
+				{ "model": "plank/acacia/bdc_slab_acacia_upper_4" },
+				{ "model": "plank/acacia/bdc_slab_acacia_upper_5" },
+				{ "model": "plank/acacia/bdc_slab_acacia_upper_6" },
+				{ "model": "plank/acacia/bdc_slab_acacia_upper_7" },
+				{ "model": "plank/acacia/bdc_slab_acacia_upper_8" }
+			]
+		}
+    ]
+}
