@@ -1,7 +1,6 @@
 {
-	"__comment": "Designed by Sphax for PureBDcraft - http://bdcraft.net",
-	"parent": "item/bdc_item_cross",
+    "parent": "item/generated",
     "textures": {
-        "layer0": "blocks/flower_rose"
+        "layer0": "blocks_alt1/flower_rose"
     }
 }

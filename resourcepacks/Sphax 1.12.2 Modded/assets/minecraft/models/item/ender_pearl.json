@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "blocks_alt1/flower_dandelion"
+        "layer0": "items_alt1/ender_pearl"
     }
 }
