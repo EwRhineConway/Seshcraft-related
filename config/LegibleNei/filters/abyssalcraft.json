@@ -1,0 +1,7 @@
+{
+abyssalcraft:[
+    {keep:[[crystal*,*charm],[0]]};
+	{keep:[[necronomicon*],[],['*PotEnergy:0*']]};
+	{hide:[[ccluster*],[0]]};
+]
+}

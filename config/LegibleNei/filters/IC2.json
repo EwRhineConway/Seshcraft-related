@@ -1,0 +1,11 @@
+{ic2:[
+   {keep:[[wall],[0]]};
+   {keep:[[fluid_cell],[0],['{}']]};
+   ],
+forge:[
+	{keep-one:[[bucketFilled],[]]};
+],
+pressure:[
+	{keep-one:[[Canister],[]]};
+]
+}

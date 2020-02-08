@@ -1,0 +1,5 @@
+{techreborn:[
+   {hide:[[*],[],['*charge*']]};
+   {keep:[[dynamicCell],[0],['']]};
+   ]
+}

@@ -1,0 +1,11 @@
+{thermalexpansion:[
+	{keep-one:[[florb,morb],[]]};
+	],
+thermalfoundation:[
+	{keep:[[ore,ore_fluid,storage,storage_alloy,glass*,rockwool,coin,dye],[0]]};
+	{keep-onei:[tool.,[sickle,sword,shovel,pickaxe,axe,hoe,bow,fishing_rod,shears,hammer,excavator,shield],_*,[]]};
+	{keep-onei:[armor.,[helmet,plate,legs,boots],_*,[]]};
+	{keep-onei:[[fluid,horse_armor],_*,[]]};
+	{hide:[[material],[23-27,65-103,193-231,257-295,321-359]]};
+	]
+}

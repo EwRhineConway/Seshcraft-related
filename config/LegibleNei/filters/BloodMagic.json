@@ -1,0 +1,11 @@
+{
+BloodMagic:[
+	{_hide:[[BlockBloodTank],[]]};
+	{keep:[Item,[Component,DemonCrystal,SoulGem,Slate,BloodOrb],[0]]};
+	{keep:[Item,[InscriptionTool],[1]]};
+	{keep:[Block,[Demon*,Wall*,Pillar*,Stair*,Mimic,
+		InversionPillar,RitualStone,BloodRune,Path],[0]]};
+	{keep:[Block,[InversionPillar],End,[0,1]]};
+	{keep-one:[Item,[UpgradeTrainer,SoulGem],[0]]};
+]
+}

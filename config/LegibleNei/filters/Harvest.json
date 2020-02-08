@@ -1,0 +1,5 @@
+{harvestcraft:[
+	{hide:[[*garden,candle*,*cake,*sapling,pam*,*raw*],[]]};
+	{hide:[*,[juice,yogurt,jelly,smoothie,sandwich,seed],Item,[]]};
+]
+}

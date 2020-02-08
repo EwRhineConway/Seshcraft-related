@@ -1,0 +1,10 @@
+{
+appliedenergistics2:[
+	{keep-one:[[crystal_seed],[0,600,1200]]};
+	{hide:[[*],[0],['*Power*']]};
+	{keep-one:[[facade],[]]};
+	{keep:[[paint_ball],[0]]};
+	{_hide:[[encoded_pattern],[]]};
+	{hide:[[part],[0-15,20-35,40-55,60-75]]};
+	]
+}

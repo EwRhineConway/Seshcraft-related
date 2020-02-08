@@ -1,0 +1,10 @@
+{tconstruct:[
+	{keep-one:[[*],[0]]};
+	{keep-one:[[tooltables],[]]};
+	{keep:[[clear_stained_glass,fancy_frame,metal,slime_*,soil,*stone],[0]]};
+	{hide:[[*stair*,*slab*],[]]};
+	{keep:[[edible],[0,1,10,30]]};
+	{keep:[[seared],[0,1,3]]};
+	
+	]
+}

@@ -1,0 +1,5 @@
+{mysticalagriculture:[
+   {show:[tier1_inferium_,[seeds,crop],[0]]};
+   {hide:[[*_crop,*_seeds],[]]};
+   ]
+}
