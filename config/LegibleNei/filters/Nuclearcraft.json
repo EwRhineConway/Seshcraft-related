@@ -1,7 +1,0 @@
-{
-nuclearcraft:[
-	{keep:[[dust*,gem*,compound,thorrium,uranium,curium,americanium,neptunium,plutonium,berkelium,californium],[0]]};
-	{keep-onei:[[fuel_*,depleted_fuel_*],[]]};
-	{hide:[[fluid_*],[]]};
-]
-}
