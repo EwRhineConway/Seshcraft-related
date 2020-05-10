@@ -1,6 +1,0 @@
-{
-    "parent": "block/bdc_backface",
-    "textures": {
-        "texture": "blocks/mob_spawner"
-    }
-}

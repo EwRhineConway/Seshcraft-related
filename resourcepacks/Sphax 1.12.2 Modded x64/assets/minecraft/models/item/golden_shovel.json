@@ -1,7 +1,0 @@
-{
-	"__comment": "Designed by Sphax for PureBDcraft - http://bdcraft.net",
-    "parent": "item/bdc_shovel",
-    "textures": {
-        "layer0": "items/gold_shovel"
-    }
-}

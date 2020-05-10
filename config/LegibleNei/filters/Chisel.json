@@ -1,5 +1,0 @@
-{chisel:[
-	{keep:[[*],[0]]};
-	{keep-onei:[[concrete,brick,block,cobble,lime,glass],*,[0]]};
-   ]
-}

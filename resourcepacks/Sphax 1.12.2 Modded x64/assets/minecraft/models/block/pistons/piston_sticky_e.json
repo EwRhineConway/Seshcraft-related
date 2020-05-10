@@ -1,6 +1,0 @@
-{
-    "parent": "block/pistons/piston_e",
-    "textures": {
-        "platform": "blocks/piston_top_sticky"
-    }
-}
