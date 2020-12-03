@@ -104,6 +104,18 @@
       "action": {
         "type": "refresh"
       }
+    },
+    "debug": {
+      "text": "Multiplayer",
+      "tooltip": "Debug Option to View Server List",
+      "posX": 5,
+      "posY": -12,
+      "color": -1,
+      "alignment": "bottom_left",
+      "action": {
+        "type": "openGui",
+        "gui": "multiplayer"
+      }
     }
   },
 
