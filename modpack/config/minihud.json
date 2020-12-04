@@ -19,7 +19,7 @@
     "useFontShadow": false,
     "useTextBackground": true,
     "openConfigGui": {
-      "keys": "H,C",
+      "keys": "",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -67,7 +67,7 @@
       }
     },
     "toggleKey": {
-      "keys": "H",
+      "keys": "",
       "settings": {
         "activate_on": "RELEASE",
         "context": "INGAME",
@@ -104,7 +104,7 @@
     "spawnableSubChunkCheckInterval": 20,
     "spawnableSubChunksOverlayRadius": -1,
     "textPosX": 4,
-    "textPosY": 4,
+    "textPosY": 18,
     "timeDayDivisor": 24000,
     "timeTotalDivisor": 24000
   },
