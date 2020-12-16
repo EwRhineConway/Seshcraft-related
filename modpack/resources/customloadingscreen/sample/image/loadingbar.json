@@ -1,0 +1,13 @@
+{
+  "parent": "builtin/image",
+  "image": "mcforthebois:textures/loadingbar.png",
+  "position_type": "BOTTOM_CENTER",
+  "offset_pos": "BOTTOM_CENTER",
+  "colour": "0xFF_FF_FF_FF",
+  "position": {
+    "x": "0",
+    "y": "-10",
+    "width": "125",
+    "height": "10"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "builtin/image",
+  "image": "mcforthebois:textures/panel_bottom.png",
+  "position_type": "BOTTOM_LEFT",
+  "offset_pos": "BOTTOM_LEFT",
+  "colour": "0xFF_FF_FF_F0",
+  "position": {
+    "x": "0",
+    "y": "0",
+    "width": "screen_width",
+    "height": "64"
+  }
+}

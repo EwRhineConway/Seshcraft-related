@@ -1,0 +1,19 @@
+{
+  "parent": "builtin/image",
+  "image": "customloadingscreen:textures/generic/white.png",
+  "position_type": "BOTTOM_CENTER",
+  "offset_pos": "BOTTOM_LEFT",
+  "colour": "0xFF_FF_FF_FF",
+  "position": {
+    "x": "0",
+    "y": "0",
+    "width": "125 * percentage",
+    "height": "5"
+  },
+  "texture": {
+    "x": "0",
+    "y": "0",
+    "width": "1",
+    "height": "1"
+  }
+}

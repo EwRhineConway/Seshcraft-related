@@ -1,0 +1,13 @@
+{
+  "parent": "builtin/image",
+  "image": "mcforthebois:textures/background.png",
+  "position_type": "TOP_LEFT",
+  "offset_pos": "TOP_LEFT",
+  "colour": "0xFF_FF_FF_FF",
+  "position": {
+    "x": "0",
+    "y": "0",
+    "width": "screen_width",
+    "height": "screen_height"
+  }
+}

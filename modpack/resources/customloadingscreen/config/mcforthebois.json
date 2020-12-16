@@ -1,0 +1,67 @@
+{
+  "renders": [
+    "sample/background",
+    "sample/panel_bottom",
+    "sample/title",
+    "sample/text_percentage_scrolling",
+    {
+      "image": {
+        "parent": "sample/bottom_bar",
+        "colour": "0xC0_00_00_00",
+        "position_type": "BOTTOM_CENTER",
+        "offset_pos": "BOTTOM_LEFT",
+        "position": {
+          "width": "125",
+          "height": "10",
+          "x": "-62.5",
+          "y": "-10"
+        }
+      }
+    },
+    {
+      "image": {
+        "parent": "sample/loadingbarpercentage",
+        "colour": "0xFF_FF_FF_FF",
+        "position": {
+          "height": "10",
+          "x": "-62.5",
+          "y": "-10"
+        }
+      }
+    },
+    "sample/loadingbar"
+  ],
+  "functions": [],
+  "variables": {
+    "max_scroll_count": "2",
+    "scroll_text": "status + (is_reloading ? '' : (' - ' + sub_status))"
+  },
+  "factories": [
+    {
+      "parent": "builtin/change",
+      "change": "scroll_text",
+      "variables": {
+        "factory_age": "factory_count - factory_index"
+      },
+      "kept_variables": {
+        "factory_status": "scroll_text"
+      },
+      "to_create": {
+        "should_render": "factory_age < max_scroll_count",
+        "image": {
+          "parent": "builtin/text",
+          "image": "textures/font/ascii.png",
+          "position_type": "BOTTOM_CENTER",
+          "offset_pos": "BOTTOM_CENTER",
+          "text": "factory_status + (factory_age == 1 ? ( is_reloading ? ' - ' + sub_status : '') : '')",
+          "position": {
+            "x": "0",
+            "y": "-35 + (factory_index - factory_count) * 2"
+          },
+          "colour": "0xFF_00_00_00 | (0x01_01_01 * (0xFF - 0xFF * factory_age / max_scroll_count).max(0x40))"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

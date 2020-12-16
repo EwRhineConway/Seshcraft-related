@@ -1,0 +1,13 @@
+{
+  "parent": "builtin/image",
+  "image": "mcforthebois:textures/logo.png",
+  "position_type": "TOP_CENTER",
+  "offset_pos": "TOP_CENTER",
+  "colour": "0xFF_FF_FF_FF",
+  "position": {
+    "x": "0",
+    "y": "15",
+    "width": "224",
+    "height": "126"
+  }
+}

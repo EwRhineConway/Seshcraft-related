@@ -1,0 +1,10 @@
+{
+  "parent": "sample/text_percentage",
+  "position_type": "BOTTOM_CENTER",
+  "offset_pos": "BOTTOM_CENTER",
+  "position": {
+  	"x": "0",
+    "y": "-25"
+  },
+  "colour": "0xFFFFFFFF"
+}
