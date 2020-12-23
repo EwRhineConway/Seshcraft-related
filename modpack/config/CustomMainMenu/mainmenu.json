@@ -1,0 +1,184 @@
+{
+  "images": {
+    "title": {
+      "image": "custommainmenu:textures/gui/logo.png",
+      "posX": -125,
+      "posY": 0,
+      "width": 250,
+      "height": 150,
+      "alignment": "top_center"
+    },
+    "whatsNewBackground": {
+      "image": "mcforthebois:textures/gui/updateBackground.png",
+      "posX": 8,
+      "posY": 8,
+      "width": 154,
+      "height": 266,
+      "alignment": "top_left"
+    },
+    "updatePreview": {
+      "image": "mcforthebois:textures/gui/updatePreview/darkMode.png",
+      "posX": 17,
+      "posY": 72,
+      "width": 150,
+      "height": 150,
+      "alignment": "top_left"
+    }
+  },
+
+  "buttons": {
+    "singleplayer": {
+      "text": "Play Alone",
+      "posX": -100,
+      "posY": 0,
+      "width": 200,
+      "height": 20,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "singleplayer"
+      }
+    },
+
+    "seshcraft": {
+      "text": "Join The Bois",
+      "posX": -100,
+      "posY": 22,
+      "width": 200,
+      "height": 20,
+      "alignment": "center",
+      "action": {
+        "type": "connectToServer",
+        "ip": "pinpal.uk.ms"
+      }
+    },
+
+    "map": {
+      "text": "Technic",
+      "posX": -100,
+      "posY": 44,
+      "width": 66,
+      "height": 20,
+      "alignment": "center",
+      "tooltip": "View the Modpack on Technic Website",
+      "action": {
+        "type": "openLink",
+        "link": "https://www.technicpack.net/modpack/mc-for-the-bois"
+      }
+    },
+
+    "github": {
+      "text": "Github",
+      "posX": -32,
+      "posY": 44,
+      "width": 66,
+      "height": 20,
+      "alignment": "center",
+      "tooltip": "View the Modpack on Github",
+      "action": {
+        "type": "openLink",
+        "link": "https://github.com/EwRhineConway/Seshcraft-related"
+      }
+    },
+
+    "settings": {
+      "text": "",
+      "posX": 58,
+      "posY": 44,
+      "width": 20,
+      "height": 20,
+      "alignment": "center",
+      "tooltip": "Game Options",
+      "texture": "custommainmenu:textures/gui/options.png",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
+      }
+    },
+
+    "refresh": {
+      "text": "",
+      "posX": 36,
+      "posY": 44,
+      "width": 20,
+      "height": 20,
+      "alignment": "center",
+      "tooltip": "Fix 'Invalid Session'",
+      "texture": "custommainmenu:textures/gui/reload.png",
+      "wrappedButton": 17325
+    },
+
+    "quit": {
+      "text": "",
+      "posX": 80,
+      "posY": 44,
+      "width": 20,
+      "height": 20,
+      "alignment": "center",
+      "tooltip": "Quit Game",
+      "texture": "custommainmenu:textures/gui/quit.png",
+      "action": {
+        "type": "quit"
+      }
+    },
+
+    "resourcePack": {
+      "text": "Check it Out",
+      "posX": 20,
+      "posY": 230,
+      "width": 130,
+      "height": 20,
+      "alignment": "top_left",
+      "tooltip": "View Resource Packs",
+      "action": {
+        "type": "openGui",
+        "gui": "options.ressourcepacks"
+      }
+    }
+  },
+
+  "labels": {
+    "seshcraft": {
+      "text": "web:https://raw.githubusercontent.com/EwRhineConway/Seshcraft-related/master/currentVersion.txt",
+      "posX": 22,
+      "posY": 256,
+      "color": 9211020,
+      "alignment": "top_left",
+      "action": {
+        "type": "refresh"
+      }
+    },
+    "newFeature": {
+      "text": "What's New",
+      "anchor": "middle",
+      "posX": 86,
+      "posY": 20,
+      "color": -1,
+      "fontSize": 1.5,
+      "alignment": "top_left"
+    },
+    "newChangelog": {
+      "text": "A new dark style \ninventory resource \npack is now available!",
+      "anchor": "middle",
+      "posX": 86,
+      "posY": 36,
+      "color": 13158600,
+      "alignment": "top_left"
+    }
+  },
+
+  "other": {
+    "background": {
+      "image": "",
+      "slideshow": {
+        "images": [
+          "custommainmenu:textures/gui/title/background/screenshot0.png",
+          "custommainmenu:textures/gui/title/background/screenshot1.png",
+          "custommainmenu:textures/gui/title/background/screenshot2.png"
+        ],
+        "displayDuration": 80,
+        "fadeDuration": 20
+      }
+    }
+  }
+}
