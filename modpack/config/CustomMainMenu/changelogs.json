@@ -1,0 +1,196 @@
+{
+  "images": {
+    "backgroundImage": {
+      "image": "custommainmenu:textures/gui/title/background/screenshot2.png",
+      "posX": -1290,
+      "posY": 0,
+      "width": 1600,
+      "height": 800,
+      "alignment": "top_left"
+    },
+    "title": {
+      "image": "custommainmenu:textures/gui/logo.png",
+      "posX": 30,
+      "posY": -170,
+      "width": 250,
+      "height": 150,
+      "alignment": "left_center"
+    }
+  },
+  "labels": {
+    "6.0.1": {
+      "text": "v6.0.1",
+      "anchor": "middle",
+      "posX": 100,
+      "posY": 30,
+      "color": -1,
+      "fontSize": 2,
+      "alignment": "top_center"
+    },
+    "6.0.1changes": {
+      "text": "\nAdd New Page to View Changelogs\nAdd 'See All Changes' Button\nFix Minor Menu Color Issues",
+      "anchor": "left",
+      "posX": 20,
+      "posY": 42,
+      "color": 13158600,
+      "hoverColor": 13158600,
+      "fontSize": 1,
+      "alignment": "top_center"
+    },
+    "6.0.0": {
+      "text": "v6.0.0",
+      "anchor": "middle",
+      "posX": 100,
+      "posY": 100,
+      "color": -1,
+      "fontSize": 2,
+      "alignment": "top_center"
+    },
+    "6.0.0title": {
+      "text": "The Menu Update",
+      "anchor": "middle",
+      "posX": 100,
+      "posY": 120,
+      "color": -1,
+      "fontSize": 1,
+      "alignment": "top_center"
+    },
+    "6.0.0changes": {
+      "text": "\nUnifiy GUI Scale on Main Menu\nMain menu scales better with resolution\nUpdate Loading Screen\nUpdate Main Menu\nMain Menu now displays key new features\nAdd CTM Glass (with Jappa textures)\nAdded blur to background of GUI menus\nAdded Dark Mode GUI Pack",
+      "anchor": "left",
+      "posX": 10,
+      "posY": 126,
+      "color": 13158600,
+      "hoverColor": 13158600,
+      "fontSize": 1,
+      "alignment": "top_center"
+    },
+    "5.2.1": {
+      "text": "v5.2.1",
+      "anchor": "middle",
+      "posX": 100,
+      "posY": 230,
+      "color": -1,
+      "fontSize": 2,
+      "alignment": "top_center"
+    },
+    "5.2.1changes": {
+      "text": "\nAdd AnvilFix (Removes Anvil Level Limit)",
+      "anchor": "left",
+      "posX": 10,
+      "posY": 242,
+      "color": 13158600,
+      "hoverColor": 13158600,
+      "fontSize": 1,
+      "alignment": "top_center"
+    },
+    "5.2.0": {
+      "text": "v5.2.0",
+      "anchor": "middle",
+      "posX": 100,
+      "posY": 280,
+      "color": -1,
+      "fontSize": 2,
+      "alignment": "top_center"
+    },
+    "5.2.0changes": {
+      "text": "\nAdd FTBUtilities\nAdd FTBLib\nAdd CraftTweaker",
+      "anchor": "left",
+      "posX": 60,
+      "posY": 292,
+      "color": 13158600,
+      "hoverColor": 13158600,
+      "fontSize": 1,
+      "alignment": "top_center"
+    },
+    "5.1.0": {
+      "text": "v5.1.0",
+      "anchor": "middle",
+      "posX": 100,
+      "posY": 350,
+      "color": -1,
+      "fontSize": 2,
+      "alignment": "top_center"
+    },
+    "5.1.0changes": {
+      "text": "\nFix TechGuns FOV Issues\nAdd CustomLoadingScreen",
+      "anchor": "left",
+      "posX": 30,
+      "posY": 362,
+      "color": 13158600,
+      "hoverColor": 13158600,
+      "fontSize": 1,
+      "alignment": "top_center"
+    },
+    "5.0.0": {
+      "text": "v5.0.0",
+      "anchor": "middle",
+      "posX": 100,
+      "posY": 410,
+      "color": -1,
+      "fontSize": 2,
+      "alignment": "top_center"
+    },
+    "5.0.0title": {
+      "text": "Guns & Furniture Update",
+      "anchor": "middle",
+      "posX": 100,
+      "posY": 430,
+      "color": -1,
+      "fontSize": 1,
+      "alignment": "top_center"
+    },
+    "5.0.0changes": {
+      "text": "\nAdd MrCrayFish's Furniture Mod\nAdd MrCrayFish's Vehicles Mod\nAdd TechGuns Mod\nAdd WiZoom Mod (Replacement for OptiFine Zoom)\nFix BetterHUD Config (fix missing UI)",
+      "anchor": "left",
+      "posX": 10,
+      "posY": 436,
+      "color": 13158600,
+      "hoverColor": 13158600,
+      "fontSize": 1,
+      "alignment": "top_center"
+    }
+  },
+  "buttons": {
+    "6.0.0betaIndicator": {
+      "text": "(Beta)",
+      "posX": -100,
+      "textOffsetX": "60",
+      "posY": 192.5,
+      "width": 400,
+      "height": 20,
+      "alignment": "top_center",
+      "texture": "custommainmenu:textures/gui/transparent.png",
+      "tooltip": "Dark Mode GUI (Beta)\nNot All Mods are Supported.\nThis will come in a future update.",
+      "normalTextColor": 16737380,
+      "hoverTextColor": 16737380
+    },
+    "back": {
+      "text": "Go Back",
+      "posX": 55,
+      "posY": -10,
+      "width": 200,
+      "height": 20,
+      "alignment": "left_center",
+      "action": {
+        "type": "openGui",
+        "gui": "custom.mainmenu"
+      }
+    },
+    "viewAllChangesOnGit": {
+      "text": "View All Changelogs on Github",
+      "posX": 55,
+      "posY": 15,
+      "width": 200,
+      "height": 20,
+      "alignment": "left_center",
+      "action": {
+        "type": "openLink",
+        "link": "https://github.com/EwRhineConway/Seshcraft-related/releases"
+      }
+    }
+  },
+  "other": {
+    "background": "options"
+  }
+}

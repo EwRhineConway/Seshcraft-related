@@ -13,7 +13,7 @@
       "posX": 8,
       "posY": 8,
       "width": 154,
-      "height": 266,
+      "height": 288,
       "alignment": "top_left"
     },
     "updatePreview": {
@@ -134,6 +134,20 @@
         "type": "openGui",
         "gui": "options.ressourcepacks"
       }
+    },
+
+    "changelogs": {
+      "text": "See All Changes",
+      "posX": 20,
+      "posY": 254,
+      "width": 130,
+      "height": 20,
+      "alignment": "top_left",
+      "tooltip": "View Version Changelogs",
+      "action": {
+        "type": "openGui",
+        "gui": "custom.changelogs"
+      }
     }
   },
 
@@ -141,7 +155,7 @@
     "seshcraft": {
       "text": "web:https://raw.githubusercontent.com/EwRhineConway/Seshcraft-related/master/currentVersion.txt",
       "posX": 22,
-      "posY": 256,
+      "posY": 280,
       "color": 9211020,
       "alignment": "top_left",
       "action": {
@@ -163,6 +177,7 @@
       "posX": 86,
       "posY": 36,
       "color": 13158600,
+      "hoverColor": 13158600,
       "alignment": "top_left"
     }
   },
