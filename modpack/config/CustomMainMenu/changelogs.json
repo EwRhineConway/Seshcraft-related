@@ -51,29 +51,29 @@
       "text": "Previous Changes:",
       "anchor": "middle",
       "posX": 100,
-      "posY": -90,
+      "posY": 170,
       "color": -1,
       "fontSize": 2,
-      "alignment": "center"
+      "alignment": "top_center"
     },
     "olderChangesTitle": {
       "text": "Summary of Changes in Previous Updates",
       "anchor": "middle",
       "posX": 100,
-      "posY": -70,
+      "posY": 190,
       "color": -1,
       "fontSize": 1,
-      "alignment": "center"
+      "alignment": "top_center"
     },
     "olderChangesLog": {
       "text": "web:https://raw.githubusercontent.com/EwRhineConway/Seshcraft-related/master/previousChanges.txt",
       "anchor": "left",
       "posX": -50,
-      "posY": -55,
+      "posY": 205,
       "color": 13158600,
       "hoverColor": 13158600,
       "fontSize": 1,
-      "alignment": "center"
+      "alignment": "top_center"
     }
   },
   "buttons": {
