@@ -3,3 +3,4 @@
   (Full Support for: GalacticCraft, FutureMC, DraconicEvolution, ThermalFoundation,
   ThermalExpansion, RFTools Control, RFTools Dimensions, JEI Resources, TinkersConstruct,
   CofhCore and fixed various issues relating to RFTools & RefinedStorage)
+- Add JustTheLittleThings (32 Bit Java Warning + Custom Window Icon/Title)
