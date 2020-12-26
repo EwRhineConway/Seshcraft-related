@@ -2,4 +2,4 @@
 - Update Dark Mode GUI (no longer beta)
   (Full Support for: GalacticCraft, FutureMC, DraconicEvolution, ThermalFoundation,
   ThermalExpansion, RFTools Control, RFTools Dimensions, JEI Resources, TinkersConstruct,
-  and fixed support in RFTools & RefinedStorage)
+  CofhCore and fixed various issues relating to RFTools & RefinedStorage)
