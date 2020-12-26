@@ -14,7 +14,7 @@ v6.0.0
 - Added Dark Mode GUI Pack (Beta - not all mods have support yet)
 
 v5.2.1
-- Add AnvilFix (allows merging on anvils with no level limit (default max: 40))
+- Add AnvilFix - allows merging on anvils with no level limit (default max: 40)
 
 v5.2.0
 - Add FTBUtilities
