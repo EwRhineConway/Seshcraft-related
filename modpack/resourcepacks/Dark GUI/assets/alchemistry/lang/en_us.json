@@ -1,0 +1,10 @@
+{
+  "block.alchemistry.chemical_dissolver": "\u00A7fChemical Dissolver",
+  "block.alchemistry.chemical_combiner": "\u00A7fChemical Combiner",
+  "block.alchemistry.evaporator": "\u00A7fEvaporator",
+  "block.alchemistry.atomizer": "\u00A7fAtomizer",
+  "block.alchemistry.liquifier": "\u00A7fLiquifier",
+
+
+  "itemGroup.alchemistry": "\u00A7fAlchemistry"
+}

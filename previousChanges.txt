@@ -1,0 +1,103 @@
+v6.0.1
+- Add New Page to View Changelogs (in-game)
+- Add "See All Changes" Button to Main Menu
+- Fix Minor Menu Color Issues
+
+v6.0.0
+- Unifiy GUI Scale on Main Menu
+- Main menu scales better with resolution
+- Update Loading Screen
+- Update Main Menu
+- Main Menu now displays key new features
+- Add connected glass textures (with new Jappa textures)
+- Added blur to background of GUI menus
+- Added Dark Mode GUI Pack (Beta - not all mods have support yet)
+
+v5.2.1
+- Add AnvilFix (allows merging on anvils with no level limit (default max: 40))
+
+v5.2.0
+- Add FTBUtilities
+- Add FTBLib
+- Add CraftTweaker
+
+v5.1.0
+- Fixes to TechGuns config to address FOV issues
+- Add CustomLoadingScreen
+
+v5.0.0
+- Add MrCrayFish Vehicles Mod
+- Add MrCrayFish Furniture Mod
+- Add TechGuns
+- Add WiZoom (Replacement for OptiFine zoom)
+- Fix BetterHUD Config
+
+v4.0.1
+- Add NoFOV (due to OptiFine removal)
+- Update main menu screenshots
+
+v4.0.0
+- Remove OptiFine
+- Add BetterFPS
+- Add VanillaFix
+- Add FoamFix
+- Remove MiniHUD → Add BetterHUD
+- Remove MalisisDoors → Add MacawsDoors
+- Remove Telepads → Already have Mekanism/RFTools instead
+- Minor Retexture Fixes
+
+v3.1.0
+- Add CTM (ConnectedTextures)
+- Remove NoFOV (OptiFine can do this)
+- Add BlockCraftery (ArchitectureCraft lacks trapdoors)
+
+v3.0.0
+- Remove BlockCraftery
+- Added ArchitectureCraft
+
+v2.3.0
+- Add NoFOV Mod (Avoids major FOV shift with speed 3 etc)
+- Fix WAILA Config such that pipes showvalues of energy/liquid etc
+- Other minor config changes
+
+v2.2.1
+- Fix incorrect RefinedStorageAdditions game
+version
+
+v2.2.0 
+- Update Version Number
+
+v2.1.1
+- Remove Thaumcraft
+- Remove Baubles
+- Update some configs
+
+v2.1.0
+- Add Thaumcraft
+- Add Baubles
+- Add NetherEndingOre
+- Remove Cyclic
+
+v2.0.0
+- Add Missing Mods
+
+v1.2.1
+- Remove ThutCore
+- Remove ThutElevator
+- Remove EnderCore
+- Remove EnderIO
+- Remove GasConduits
+- Remove DynamicSurroundings
+- Remove OreLib
+
+v1.1.0
+- Alchemistry (Chemistry in the game)
+- Pathouli (In game wiki)
+- Forgelin
+- Alib
+
+v1.0.1
+- Fix Modpack Binary (Fixes issues that resulted in forge not being loaded correctly)
+
+v1.0.0
+- Initial Modpack Release
