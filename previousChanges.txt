@@ -1,3 +1,15 @@
+v6.1.0
+- Removed P445sw0rdsLib (it was destroying FPS and not required)
+- Removed BetterHUD (MiniHUD is back)
+- Add MiniHUD (fixed compatability)
+- Add Malilib (fixed compatability)
+- Rename VanillaFix such that mixins loads correctly (fixing incompatibility)
+- Redesign Changelogs Menu (loads dynamically from Github making it easier to manage)
+- Add Dark Mode Support to a number of mods 
+  (Alchemistry/FutureMC/BigReactors/MysticalAgriculture/Hats & more)
+- Updated McJtyLib Config to allow support for Dark Mode
+- Add Phosphor (Lighting Engine Optimisations)
+
 v6.0.1
 - Add New Page to View Changelogs (in-game)
 - Add "See All Changes" Button to Main Menu

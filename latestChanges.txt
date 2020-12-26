@@ -1,10 +1,5 @@
-- Removed P445sw0rdsLib (it was destroying FPS and not required)
-- Removed BetterHUD (MiniHUD is back)
-- Add MiniHUD (fixed compatability)
-- Add Malilib (fixed compatability)
-- Rename VanillaFix such that mixins loads correctly (fixing incompatibility)
-- Redesign Changelogs Menu (loads dynamically from Github making it easier to manage)
-- Add Dark Mode Support to a number of mods 
-  (Alchemistry/FutureMC/BigReactors/MysticalAgriculture/Hats/GalacticCraft & more)
-- Updated McJtyLib Config to allow support for Dark Mode
-- Add Phosphor (Lighting Engine Optimisations)
+- Minor Config Fixes
+- Update Dark Mode GUI (no longer beta)
+  (Full Support for: GalacticCraft, FutureMC, DraconicEvolution, ThermalFoundation,
+  ThermalExpansion, RFTools Control, RFTools Dimensions, JEI Resources, TinkersConstruct,
+  and fixed support in RFTools & RefinedStorage)
