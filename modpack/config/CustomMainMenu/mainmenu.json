@@ -12,8 +12,8 @@
       "image": "mcforthebois:textures/gui/updateBackground.png",
       "posX": 8,
       "posY": 8,
-      "width": 154,
-      "height": 288,
+      "width": 170,
+      "height": 295,
       "alignment": "top_left"
     },
     "updatePreview": {
@@ -124,7 +124,7 @@
 
     "resourcePack": {
       "text": "Check it Out",
-      "posX": 20,
+      "posX": 28,
       "posY": 230,
       "width": 130,
       "height": 20,
@@ -138,7 +138,7 @@
 
     "changelogs": {
       "text": "See All Changes",
-      "posX": 20,
+      "posX": 28,
       "posY": 254,
       "width": 130,
       "height": 20,
@@ -155,7 +155,7 @@
     "seshcraft": {
       "text": "web:https://raw.githubusercontent.com/EwRhineConway/Seshcraft-related/master/currentVersion.txt",
       "posX": 22,
-      "posY": 280,
+      "posY": 287,
       "color": 9211020,
       "alignment": "top_left",
       "action": {
@@ -165,7 +165,7 @@
     "newFeature": {
       "text": "What's New",
       "anchor": "middle",
-      "posX": 86,
+      "posX": 94,
       "posY": 20,
       "color": -1,
       "fontSize": 1.5,
@@ -174,7 +174,7 @@
     "newChangelog": {
       "text": "A new dark style \ninventory resource \npack is now available!",
       "anchor": "middle",
-      "posX": 86,
+      "posX": 94,
       "posY": 36,
       "color": 13158600,
       "hoverColor": 13158600,

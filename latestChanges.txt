@@ -1,6 +1,6 @@
-- Minor Config Fixes
-- Update Dark Mode GUI (no longer beta)
-  (Full Support for: GalacticCraft, FutureMC, DraconicEvolution, ThermalFoundation,
-  ThermalExpansion, RFTools Control, RFTools Dimensions, JEI Resources, TinkersConstruct,
-  CofhCore and fixed various issues relating to RFTools & RefinedStorage)
-- Add JustTheLittleThings (32 Bit Java Warning + Custom Window Icon/Title)
+- Updated Dark Mode GUI (Full Mekanism Support, MacawsDoors, Alchemistry, BloodMagic,
+  BasicNetherOres, SecurityCraft TechGuns & ExtraUtilities2, alongside numerous fixes 
+  for RFTools & Avaritia)
+  DARK MODE SUPPORT IS NOW AVAILABLE FOR 99% OF MODS IN THE PACK :)
+- Minor Config Changes to fix RFTools
+- "What's New" Main Menu showcase updated with new images for Dark Mode GUI
